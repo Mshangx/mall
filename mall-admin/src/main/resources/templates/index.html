@@ -33,7 +33,7 @@
         <div class="sidebar-collapse">
             <ul class="nav" id="side-menu">
                 <li class="logo">
-				     <span class="logo-lg">RuoYi</span>
+				     <span class="logo-lg">商城管理后台</span>
             	</li>
             	<li>
             		<div class="user-panel">
@@ -51,10 +51,12 @@
 				    </div>
             	</li>
                  <li class="active">
-                    <a href="index.html"><i class="fa fa-home"></i> <span class="nav-label">主页</span> <span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
+                    <a class="menuItem" th:href="@{/system/main}"><i class="fa fa-home"></i> <span class="nav-label">主页</span> </a>
+                    <!--
+                     <ul class="nav nav-second-level">
                         <li class="active"><a class="menuItem" th:href="@{/system/main}">了解若依</a></li>
                     </ul>
+                    -->
                 </li>
                 <li th:each="menu : ${menus}">
                 	<a href="#">

@@ -21,3 +21,6 @@
 15. 服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
 16. 在线构建器：拖动表单元素生成相应的HTML代码。
 17. 连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。
+
+##效果图
+ ![image](https://github.com/Mshangx/mall/blob/a6cbfd97453ad8de0bfa4662b8468de99b666d0f/image/index.png)

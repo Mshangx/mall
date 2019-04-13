@@ -73,6 +73,7 @@
             <groupId>com.github.penggle</groupId>
             <artifactId>kaptcha</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.mall</groupId>
             <artifactId>mall-system</artifactId>
